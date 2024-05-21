@@ -70,7 +70,7 @@ def drawn_score():
             case _:
                 print("Error")
                 
-        pos_base_x -= 24
+        pos_base_x += 24
 
 def drawn_end():
     screen.blit(end,(50,200))
